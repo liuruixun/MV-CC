@@ -1,3 +1,3 @@
 # MV-cc
 
-## The code will be available when the paper published.
+## The code will be available soon.
