@@ -73,8 +73,11 @@ $ python test_video_sty.py
 
 ### Mask mode
 Mask mode is set by args.mode
+
 5% semi-supervised method: semi_mask
+
 supervised method: supervised_mask
+
 gt method: label
 
 ### Paper
