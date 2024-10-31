@@ -76,9 +76,9 @@ Mask mode is set by args.mode
 
 5% semi-supervised method: semi_mask
 
-supervised method: supervised_mask
+Supervised method: supervised_mask
 
-gt method: label
+GT method: label
 
 ### Paper
 **[MV-CC: Mask Enhanced Video Model for Remote Sensing Change Caption]()**
