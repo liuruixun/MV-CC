@@ -452,7 +452,6 @@ class LEVIRCCDataset_video(Dataset):
                     token_file = os.path.join(token_folder + name.split('.')[0] + '.txt')
                 else:
                     token_file = None
-                    
                 self.files.append({
                     "video":video_file,
                     "imgA": img_fileA,
@@ -472,7 +471,6 @@ class LEVIRCCDataset_video(Dataset):
                 token_id = None
                 if token_folder is not None:
                     token_file = os.path.join(token_folder + name.split('.')[0] + '.txt')
-                    token_file_pre = os.path.join('/data/lky/proj/chang/ILM/Video-main/video-test-txt/' + name.split('.')[0] + '.txt')
                 else:
                     token_file = None
                 self.files.append({
@@ -481,7 +479,6 @@ class LEVIRCCDataset_video(Dataset):
                     "imgB": img_fileB,
                     "img_file_mask":img_file_mask,
                     "token": token_file,
-                    "token_pre":token_file_pre,
                     "token_id": token_id,
                     "name": name
                 })
