@@ -229,7 +229,8 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Remote_Sensing_Image_Changes_to_Captions')
 
     # Data parameters
-    parser.add_argument('--data_folder', default='/data/lky/data/ChangeCaption/LEVIR-CC/LEVIR-MCI-dataset/images',help='folder with data files')
+    parser.add_argument(
+        '--data_folder', default='/root/Data/LEVIR-MCI-dataset/images', help='folder with data files')
     parser.add_argument('--list_path', default='./data/LEVIR_CC/', help='path of the data lists')
     parser.add_argument('--token_folder', default='./data/LEVIR_CC/tokens/', help='folder with token files')
     parser.add_argument('--vocab_file', default='vocab', help='path of the data lists')
