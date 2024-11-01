@@ -86,7 +86,15 @@ GT method: label
 Please cite the following paper if you find it useful for your research:
 
 ```
-
+@misc{liu2024mvccmaskenhancedvideo,
+      title={MV-CC: Mask Enhanced Video Model for Remote Sensing Change Caption}, 
+      author={Ruixun Liu and Kaiyu Li and Jiayi Song and Dongwei Sun and Xiangyong Cao},
+      year={2024},
+      eprint={2410.23946},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2410.23946}, 
+}
 ```
 
 ### Acknowledgement
