@@ -81,7 +81,7 @@ Supervised method: supervised_mask
 GT method: label
 
 ### Paper
-**[MV-CC: Mask Enhanced Video Model for Remote Sensing Change Caption]()**
+**[MV-CC: Mask Enhanced Video Model for Remote Sensing Change Caption](https://arxiv.org/abs/2410.23946)**
 
 Please cite the following paper if you find it useful for your research:
 
