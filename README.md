@@ -51,7 +51,7 @@ To generate the video and prepare the data:
 $ python generate_MP4.py
 $ python preprocess_data.py
 ```
-Download the video_encoder.pth from [MV-CC checkpoints](https://drive.google.com/drive/folders/1bmMwyL4WNZcNE_vxTU5esLzL9lMy2s5H?usp=sharing) and put it in checkpoints folder.
+Download the video_encoder.pth from [MV-CC checkpoints](https://pan.baidu.com/s/1Gd_qykQKy65K6aHSdh5u9A?pwd=t6jk) and put it in checkpoints folder.
 
 Download the model from [InternVideo2_Chat_8B_InternLM2_5](https://huggingface.co/OpenGVLab/InternVideo2_Chat_8B_InternLM2_5) and place it in the /root/video_model folder.
 
@@ -63,7 +63,7 @@ $ python train_video_sty.py
 
 !NOTE: If the program encounters the error: "'Meteor' object has no attribute 'lock'," we recommend installing it with `sudo apt install openjdk-11-jdk` to resolve this issue.
 
-Alternatively, you can obtain our pretrained models from [MV-CC checkpoints](https://drive.google.com/drive/folders/1bmMwyL4WNZcNE_vxTU5esLzL9lMy2s5H?usp=sharing).
+Alternatively, you can obtain our pretrained models from [MV-CC checkpoints](https://pan.baidu.com/s/1Gd_qykQKy65K6aHSdh5u9A?pwd=t6jk).
 
 ### Caption Generation
 - To generate captions, run the following command:
